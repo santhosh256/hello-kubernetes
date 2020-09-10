@@ -26,6 +26,6 @@ spec:
     spec:
       containers:
       - name: hello-kubernetes-one
-        image: sanartifactory.jfrog.io/artifactory/docker-local/hello-kubernetes:1.9
+        image: sanartifactory.jfrog.io/artifactory/docker-local/hello-kubernetes:latest
         ports:
-        - containerPort: 6060
+        - containerPort: 8080
